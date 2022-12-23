@@ -428,7 +428,7 @@ class Main:
 			print("    Thanks♥️")
 			exit() 
 		elif Baloch in ["1", "01"]:
-			os.system("xdg-open  "https://www.facebook.com/profile.php?id=100005069806504)
+			os.system("xdg-open  "https://www.facebookcom/profile.php?id=100005069806504)
 			print("")
 			time.sleep(3.0)
 			print("\033[1;37m    𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 ")
@@ -456,7 +456,7 @@ class Main:
 \033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.0
 \033[1;37m================= \33[32;45mkhushi33[0;m =====================
  
-       \33[37;41m\t WELLCOME TO MR-AUH TOOL\33[0;m
+       \33[37;41m\tWELLCOME TO khushi tool\33[0;m
  
 \033[1;37m================== \33[32;45mKHUSHI HUN YARW\33[0;m ======================\n""")
 		
