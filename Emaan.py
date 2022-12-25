@@ -83,17 +83,7 @@ def clear():
 # BACK
 def back():
 	login()
-
-ahsan="CHA-"
-imt="-M4786=="
-ak="CHANG-"
-myid=uuid.uuid4().hex[:10].upper()
-try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
-except:
-	kok=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'w')
-	kok.write(myid+imt)
-	kok.close()
+	
 def login():
 	try:
 		token = open('.token.txt','r').read()
@@ -386,23 +376,20 @@ def follow(ses,coki):
 	r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=100067945261995', cookies={'cookie': coki}).text, 'html.parser')
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
-
-logo = (""" 
-  _  ___               _     _ 
- | |/ / |             | |   (_)
- | ' /| |__  _   _ ___| |__  _ 
- |  < | '_ \| | | / __| '_ \| |
- | . \| | | | |_| \__ \ | | | |
- |_|\_\_| |_|\__,_|___/_| |_|_|
-\033[41m\033[1;37mA TOOL BY khushi\x1b[0m
-\033[1;32m┌───────────────────────────────────────┐
-\033[1;33m│ [✓] AUTHOR   : khushi\033[1;32m[queen]              │
-\033[1;34m│ [✓] GITHUB   :\033[1;32mkhushi404                    │
-\033[1;35m│ [✓] WHATSAPP :  032*******         │
-\033[1;36m│ [✓] POWER BY : \x1b[1;32mkhushi\x1b[1;97m      │
-\033[1;32m└───────────────────────────────────────┘  
- \033[41m\033[1;37m𝐓𝐎𝐎𝐋 𝐀𝐃𝐌𝐈𝐍 [khushi] [malik]\x1b[0m    """)
-
+logo = ("""    \033[1;37m#    # #     # #     #  #####  #     # ### 
+    \033[1;32m#   #  #     # #     # #     # #     #  #  
+    \033[1;37m#  #   #     # #     # #       #     #  #  
+    \033[1;32m###    ####### #     #  #####  #######  #  
+    \033[1;37m#  #   #     # #     #       # #     #  #  
+    \033[1;32m#   #  #     # #     # #     # #     #  #  
+    \033[1;37m#    # #     #  #####   #####  #     # ### 
+\033[1;32m┌───────────────────────────────────────────────────┐
+\033[1;32m│\033[1;33m [✓] AUTHOR   :  khushi\033[1;32m[queen]    │ \033[47m\033[1;31m POWERERED BY \x1b[0m \x1b[1;92m│
+\033[1;32m│\033[1;34m [✓] GITHUB   :  \033[1;32mkhushi404        │                \x1b[1;92m│
+\033[1;32m│\033[1;35m [✓] WHATSAPP :  032*******       \033[1;32m│   \033[47m\033[1;31m KHUSHI \x1b[0m     \x1b[1;92m│
+\033[1;32m│\033[1;36m [✓] POWER BY :  \x1b[1;32mkhushi \x1b[1;92m          │                \x1b[1;92m│
+\033[1;32m│  \033[41m\033[1;37m 𝐓𝐎𝐎𝐋 𝐀𝐃𝐌𝐈𝐍 [khushi] [malik] \x1b[0m   \x1b[1;92m│  \033[47m\033[1;31m Q U E E N \x1b[0m   \x1b[1;92m│
+\033[1;32m└───────────────────────────────────────────────────┘""")
 class Main:
 	def __init__(self):
 		self.id = []
@@ -411,65 +398,37 @@ class Main:
 		self.loop = 0
 		os.system("clear")
 		print(logo)
-		print("")
-		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
-		print("\033[1;37m𝗡𝗢𝗧𝗘 : FOR APPROVAL FOLLOW MY FB I'D ")
-		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
-		
-		
-		print("")
 		print("\033[1;37m [1] FRIST FOLLOW MY ACCOUNT  ")
 		print("\033[1;37m [2] EXIT")
-		print("")
-		Baloch = input("\n\033[1;37m  Choose : \033[1;32m")
+		print('\033[1;97m====================================================') 
+		Baloch = input("\033[1;37mChoose : \033[1;32m")
 		if Baloch in ["", " "]:
 			exit()
 		elif Baloch in ["2", "02"]:
 			print("    Thanks♥️")
 			exit() 
 		elif Baloch in ["1", "01"]:
-			os.system("xdg-open  "https://www.facebookcom/profile.php?id=100005069806504)
+			os.system("xdg-open https://www.facebook.com/profile.php?id=100005069806504")
 			print("")
 			time.sleep(3.0)
-			print("\033[1;37m    𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 ")
-			print("")
-			input("\n\033[1;37m TYᑭᗴ Tᕼᗴ Oᗯᑎᗴᖇ ᖴᗩᑕᗴᗷOOK ᗩᑕᑕOᑌᑎT ᑎᗩᗰᗴ \033[1;37m")
+			print("\033[1;37m PLEASE WAIT")
+			os.system("clear")
+			print(logo)
+			input("\033[1;37m TYᑭᗴ Tᕼᗴ Oᗯᑎᗴᖇ ᖴᗩᑕᗴᗷOOK ᗩᑕᑕOᑌᑎT ᑎᗩᗰᗴ \033[1;37m")
 			time.sleep(3.1)
-			print("")
 			print("\033[1;32m ᗯᗴᒪᑕOᗰᗴ TO ••khushi•• ᗷᖇᗩᑎᗪ TOOᒪՏ")
 			time.sleep(3.0)
 			os.system("clear")
-		print()
-		print("""
- _  ___               _     _ 
- | |/ / |             | |   (_)
- | ' /| |__  _   _ ___| |__  _ 
- |  < | '_ \| | | / __| '_ \| |
- | . \| | | | |_| \__ \ | | | |
- |_|\_\_| |_|\__,_|___/_| |_|_|
-\033[1;37m================= \33[32;45mkhushi\33[0;m =====================
-\033[1;32m     \033[1;33mCREATED BY\33[0;m   :  \033[1;33mkhushi\33[0;m\033[1;32m \033[1;33m\33[0;m
-\033[1;32m     \033[1;32mFACEBOK      : \033[1;34m khushi
-\033[1;32m     \033[1;35mGITHUB       :  \033[1;35mkhushi404
-\033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36mTOOL IS FREE
-\033[1;32m     \033[1;35mWHATSUP        :  \033[1;35m+923411471937
-\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.0
-\033[1;37m================= \33[32;45mkhushi33[0;m =====================
- 
-       \33[37;41m\tWELLCOME TO khushi tool\33[0;m
- 
-\033[1;37m================== \33[32;45mKHUSHI HUN YARW\33[0;m ======================\n""")
-		
-		print("╭──────────────────────────────────────────────────────────────╮")
-		print("│ [1] CRACK FILE CLONING (\x1b[1;92mFREE\x1b[1;92m)                                │")
-		print("│ [2] LOGIN TOKEN & COOKIES (\x1b[1;96mFREE\x1b[1;96m)                             │")
-		print("│ [3] DUMP/MAKE FILE ID (\x1b[1;91mEROR\x1b[1;91m)                                 │")
-		print("│ [4] CRACK RANDOM FB ID 2008-9 (\x1b[1;96mFREE\x1b[1;96m)                         │")
-		print("│ [5] CRACK RANDOM FB ID 2011-14 (\x1b[1;95mFREE\x1b[1;95m)                        │")
-		print("│ [6] CRACK RANDOM FB ID 2004-2005 (\x1b[1;98mCOMMING SOON\x1b[1;96m)                 │")
-		print("│ [0] EXIT\x1b[1;93m)                                                   │")
-		print("╰──────────────────────────────────────────────────────────────╯")
-		TUTUL =input("  [C] CHOOSE ONE : ")
+		print(logo)
+		print("[1] CRACK FILE CLONING (\x1b[1;92mFREE\x1b[1;92m)")
+		print("[2] LOGIN TOKEN & COOKIES (\x1b[1;96mFREE\x1b[1;96m)")
+		print("[3] DUMP/MAKE FILE ID (\x1b[1;91mEROR\x1b[1;91m)")
+		print("[4] CRACK RANDOM FB ID 2008-9 (\x1b[1;96mFREE\x1b[1;96m)")
+		print("[5] CRACK RANDOM FB ID 2011-14 (\x1b[1;95mFREE\x1b[1;95m)")
+		print("[6] CRACK RANDOM FB ID 2004-2005 (\x1b[1;98mCOMMING SOON\x1b[1;96m)")
+		print("[0] EXIT\x1b[1;93m)")
+		print('\033[1;97m====================================================') 
+		TUTUL =input("CHOOSE ONE : ")
 		if TUTUL in ["1", "01"]:
 			File()
 		if TUTUL in ["2", "02"]:
@@ -1341,37 +1300,5 @@ class Main:
 		self.loop +=1
 
 
-def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
-	clear()
-	print(logo)
-	r1=requests.get("https://pastebin.com/p3jbWM14").text
-	if key1 in r1:
-		os.system('clear')
-		print(logo)
-		Main()
-	else:
-		os.system("clear")
-		print(logo)
-		print("\t \033[1;32m First Get Approvel\033[1;37m ")
-		time.sleep(1)
-		os.system("clear")
-		print(logo)
-		print ("")
-		print(" \033[1;32m Chang Toll Paid You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : Paid Tolls Free  HA JANI LOG \033[1;37m")
-		print ("")
-		print(" Your Key is Not Approved ")
-		print("")
-		print(" Copy And Send Key To Admin")
-		print ("")
-		print (" Your Key : "+cha+chan+key1)
-		print ("")
-		name = input(" Your Name : ")
-		print ("")
-		input(" Press Enter To Send Key")
-		time.sleep(3.5)
-		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
-		os.system('am start https://wa.me/+923411471937?text=' + tks)
-		Subscraption()        
+
 Main()
